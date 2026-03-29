@@ -1,0 +1,164 @@
+.userProfile {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.userProfile h1 {
+    text-transform: capitalize;
+}
+
+.userProfile section {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px black;
+}
+
+.userProfile .user {
+    background-color: teal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px black;
+}
+
+.userProfile .user .img {
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+}
+
+.userProfile .personal-info ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.userProfile .personal-info li {
+    text-transform: uppercase;
+    border: 1.4px solid grey;
+    border-radius: 5px;
+    padding: 0.2rem;
+}
+
+.userProfile .personal-info h2 {
+    background-color: teal;
+    color: white;
+    display: inline-block;
+    padding: 0.5rem 1rem 1.5rem;
+    margin: 0 0 -1rem -0.5rem;
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px black;
+}
+
+.userProfile .personal-info section {
+    position: relative;
+    background-color: whitesmoke;
+}
+
+.userProfile .personal-info span {
+    text-transform: capitalize;
+    margin-right: 0.5rem;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 0.1rem 0.6rem;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.profile-settings > h1 {
+    text-transform: capitalize;
+    padding: 0.5rem 2rem;
+}
+
+.profile-settings > section {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-image: url("../assets/Opalogo.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    gap: 2rem;
+}
+
+.profile-settings section > div {
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 3px black;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.profile-settings section form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem 1rem;
+    padding: 1rem;
+}
+
+.profile-settings section form label {
+    color: teal;
+}
+
+.profile-settings section h2 {
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.profile-settings section form button {
+    grid-area: 3 / 1 / span 2 / 1;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: teal;
+}
+
+.profile-settings section form input {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.3rem;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+main.settings {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0.5rem 1rem 1rem;
+    background-image: url("../assets/Opalogo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+main.settings > h1 {
+    text-transform: capitalize;
+}
+
+main.settings a {
+    text-decoration: none;
+    border: 1.5px solid teal;
+    padding: 0.5rem;
+    color: black;
+    text-transform: capitalize;
+    border-radius: 5px;
+    display: block;
+}

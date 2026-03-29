@@ -1,0 +1,86 @@
+.loading {
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    top: 1rem;
+    left: calc(50% - 40px);
+    background-image: url("../assets/Logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 5px;
+    transform: rotate(0deg);
+    animation-name: spinner;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+}
+
+@keyframes spinner {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+.ApiSuccessMsg {
+    position: fixed;
+    width: 300px;
+    padding: 1rem;
+    top: 3rem;
+    left: calc(50% - 150px);
+    background-color: rgba(0,0,0,0.9);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.ApiSuccessMsg h3 {
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+}
+
+.ApiSuccessMsg button {
+    border: none;
+    padding: 0.5rem 2rem;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+}
+
+.modal {
+    position: fixed;
+    width: 70%;
+    padding: 2rem;
+    top: 6rem;
+    left: calc(50% - 35%);
+    background-color: rgba(0,0,0,0.9);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.modal h3 {
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+}
+
+.modal div.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.modal button {
+    border: none;
+    padding: 0.5rem 2rem;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+}
