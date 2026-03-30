@@ -94,13 +94,9 @@ nav.userNav > div, .PublicNav > div {
     gap: 0.5rem;
 }
 
-/*main.userDashboard {
-    flex: 1;
+main.userDashboard {
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}*/
+}
 
 .userDashboard .top {
     background-color: whitesmoke;
@@ -203,6 +199,9 @@ nav.userNav > div, .PublicNav > div {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
     padding: 0 1rem 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
 .userDashboard .bottom a {
