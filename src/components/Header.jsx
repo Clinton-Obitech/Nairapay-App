@@ -1,6 +1,7 @@
 import UserNav from "../components/user/UserNav";
 import PublicNav from "./PublicNav";
-import Logo from "../assets/Translogo.png";
+import Logo from "../assets/Logo.png";
+import TransLogo from "../assets/TransLogo.png";
 import { useNavigate } from "react-router-dom";
 
 export default function PublicHeader() {
@@ -10,7 +11,7 @@ export default function PublicHeader() {
     return (
         <header>
             <h2 style={{cursor: "pointer"}} onClick={() => navigate("/", {replace: true})}>
-                <img src={Logo}/>
+                <img src={TransLogo}/>
                 NairaPay
             </h2>
             <PublicNav />
@@ -20,12 +21,12 @@ export default function PublicHeader() {
 
 export function DashHeader() {
     return (
-        <header>
+        <header className="dashHeader">
             
-            <h2>
+            <h3>
                 <img src={Logo}/>
                 NairaPay
-            </h2>
+            </h3>
             <UserNav />
         </header>
     )
@@ -40,7 +41,7 @@ export function NavHeader() {
     return (
         <header className="navHeader">
             <button onClick={HandleBackHistory}><i className="fa-solid fa-chevron-left"></i></button>
-            <h2><img src={Logo}/>NairaPay</h2>
+            <h2><img src={TransLogo}/>NairaPay</h2>
         </header>
     )
 }

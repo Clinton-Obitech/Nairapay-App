@@ -6,6 +6,11 @@
   font-weight: lighter;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -15,7 +20,7 @@ header {
   background-color: white;
 }
 
-header h2 {
+header h2, header h3 {
   display: flex;
   align-items: center;
 }

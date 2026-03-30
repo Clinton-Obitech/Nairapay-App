@@ -27,7 +27,7 @@ export default function UserDashboard() {
             }
         } catch (err) {
             toast.error("something went wrong")
-        }
+        } 
     }
 
     const HandleCollect = async () => {

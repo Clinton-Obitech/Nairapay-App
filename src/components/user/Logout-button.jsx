@@ -1,7 +1,7 @@
-import axios from "axios"
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { toast } from "react-toastify";
+import api from "../../api/axios";
 
 export function LogoutUser() {
 
@@ -12,7 +12,7 @@ export function LogoutUser() {
     const HandleLogout = async () => {
         setLoading(true)
         try {
-            const response = await axios.post("http://localhost:3000/api/user/logout", {}, { withCredentials: true });
+            const response = await api.post("/api/user/logout", {}, { withCredentials: true });
             if (response.data.success) {
                 toast.success(response.data.message);
                 navigate("/login/user", { replace: true });

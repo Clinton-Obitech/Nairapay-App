@@ -95,16 +95,7 @@ nav.userNav > div, .PublicNav > div {
 }
 
 main.userDashboard {
-    background-color: teal;
-    background-image: url("./assets/Darklogo.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.userDashboard {
-    padding: 1rem 0 0;
-    height: 100vh;
+    flex: 1;
 }
 
 .userDashboard .top {
@@ -179,8 +170,8 @@ main.userDashboard {
 }
 
 .userDashboard .center button.click {
-    height: 130px;
-    width: 130px;
+    height: 155px;
+    width: 155px;
     border-radius: 50%;
     margin: 1rem 0;
     border: none;
@@ -206,12 +197,8 @@ main.userDashboard {
     background-color: transparent;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 5rem;
+    gap: 1rem;
     padding: 0 1rem 1rem;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    border-bottom: 20px solid white;
 }
 
 .userDashboard .bottom a {
