@@ -94,13 +94,13 @@ nav.userNav > div, .PublicNav > div {
     gap: 0.5rem;
 }
 
-main.userDashboard {
+/*main.userDashboard {
     flex: 1;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
+}*/
 
 .userDashboard .top {
     background-color: whitesmoke;
