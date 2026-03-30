@@ -110,7 +110,8 @@ nav.userNav > div, .PublicNav > div {
 }
 
 main.userDashboard {
-    padding: 1rem 1rem 1rem;
+    padding: 1rem 0 0;
+    height: 100vh;
     background-color: teal;
     background-image: url("./assets/Darklogo.png");
     background-repeat: no-repeat;
