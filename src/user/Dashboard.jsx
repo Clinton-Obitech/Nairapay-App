@@ -18,6 +18,7 @@ export default function UserDashboard() {
     if (!dashboard) return <Navigate to="/login/user" />
 
     const HandleClick = async () => {
+        setApiMsg("");
         try {
             const { data } = await api.post("/api/click", {}, { withCredentials: true});
             if (data.success) {
@@ -32,6 +33,7 @@ export default function UserDashboard() {
 
     const HandleCollect = async () => {
         setLoading(true)
+        setApiMsg("")
         try {
             const { data } = await api.post("/api/collect", {}, { withCredentials: true });
             if (data.success) {
