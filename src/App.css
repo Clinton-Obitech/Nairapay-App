@@ -297,9 +297,8 @@ main.login form input {
 }
 
 main.create form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
     gap: 1rem;
 }
 
@@ -331,6 +330,7 @@ main.create form > button {
     border-radius: 5px;
     background-color: teal;
     color: whitesmoke;
+    width: 50%;
 }
 
 main.create form .terms > label {
