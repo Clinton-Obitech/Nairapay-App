@@ -113,7 +113,7 @@ main.userDashboard {
     padding: 1rem 0 0;
     height: 100vh;
     background-color: teal;
-    background-image: url("../assets/Darklogo.png");
+    background-image: url("./assets/Darklogo.png");
     background-repeat: no-repeat;
     background-size: 150%;
     background-position: center;
@@ -122,7 +122,7 @@ main.userDashboard {
 .userDashboard .top {
     background-color: white;
     padding: 1rem;
-    margin: 3.5rem 1rem 0;
+    margin: 3.5rem 1rem 2rem;
     border-radius: 5px;
     text-transform: capitalize;
     box-shadow: 0px 0px 3px black;
