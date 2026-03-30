@@ -97,6 +97,9 @@ nav.userNav > div, .PublicNav > div {
 main.userDashboard {
     flex: 1;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .userDashboard .top {
