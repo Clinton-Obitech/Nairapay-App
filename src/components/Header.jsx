@@ -23,10 +23,10 @@ export function DashHeader() {
     return (
         <header className="dashHeader">
             
-            <h3>
+            <h2>
                 <img src={Logo}/>
                 NairaPay
-            </h3>
+            </h2>
             <UserNav />
         </header>
     )

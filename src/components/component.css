@@ -86,17 +86,8 @@
 }
 
 header.dashHeader {
-    background-color: transparent;
-}
-
-header.dashHeader h3 {
-    color:white;
-}
-
-.dashHeader h3 img {
-    border-radius: 50%;
-}
-
-.dashHeader button i {
-    color: white;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
