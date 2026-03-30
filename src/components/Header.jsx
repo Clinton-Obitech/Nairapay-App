@@ -1,7 +1,7 @@
 import UserNav from "../components/user/UserNav";
 import PublicNav from "./PublicNav";
 import Logo from "../assets/Logo.png";
-import { TransLogo} from "../assets/Translogo.png";
+import TransLogo from "../assets/Translogo.png";
 import { useNavigate } from "react-router-dom";
 
 export default function PublicHeader() {
