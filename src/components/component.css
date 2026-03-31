@@ -23,10 +23,10 @@
 
 .ApiSuccessMsg {
     position: fixed;
-    width: 300px;
+    width: 70%;
     padding: 1rem;
-    top: 3rem;
-    left: calc(50% - 150px);
+    top: 50px;
+    left: calc(50% - 35%);
     background-color: rgba(0,0,0,0.9);
     border-radius: 5px;
     display: flex;
@@ -51,10 +51,10 @@
 
 .modal {
     position: fixed;
-    width: 70%;
-    padding: 2rem;
-    top: 6rem;
-    left: calc(50% - 35%);
+    width: 80%;
+    padding: 3rem;
+    top: 100px;
+    left: calc(50% - 40%);
     background-color: rgba(0,0,0,0.9);
     border-radius: 5px;
     display: flex;

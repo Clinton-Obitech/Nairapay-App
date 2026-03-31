@@ -52,7 +52,7 @@ nav.userNav {
     display: flex;
     flex-direction: column;
     background-color: white;
-    width: 300px;
+    width: 250px;
     height: 100vh;
     padding: 1rem 1rem 5rem;
     gap: 0.7rem;
@@ -87,7 +87,7 @@ nav.userNav > a, .PublicNav > a {
     text-transform: capitalize;
     font-size: 0.9rem;
     background-color: rgba(0, 0, 0, 0.2);
-    padding: 0.4rem;
+    padding: 0.6rem;
     border-radius: 5px;
     border: 1.4px solid teal;
     display: flex;
@@ -339,6 +339,8 @@ main.create form .terms > label {
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
+    font-size: 0.9rem;
+    white-space: nowrap;
 }
 
 main.create form label > button {
